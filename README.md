@@ -1,1 +1,1 @@
-# Calamares Configs For Varoius DE based Arch Distros
+# Calamares Configs For Varoius Plasma based Arch Distros
