@@ -156,6 +156,22 @@
     - gimp
     - inkscape
     - krita
+- name: "Kernel-based VM"
+  description: "Run kconfig on first boot"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bridge-utils
+    - dnsmasq
+    - ebtables
+    - openbsd-netcat
+    - ovmf
+    - qemu
+    - qemu-arch-extra
+    - vde2
+    - virt-manager    
 - name: "LibreOffice"
   description: "LibreOffice Fresh"
   critical: false
@@ -316,35 +332,6 @@
     - simplescreenrecorder
     - smplayer
     - youtube-dl
-- name: "Virtual KVM"
-  description: "KVM Virtual Machine"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - bridge-utils
-    - dnsmasq
-    - ebtables
-    - openbsd-netcat
-    - ovmf
-    - qemu
-    - qemu-arch-extra
-    - vde2
-    - virt-manager
-#- name: "Virtualbox"
-#  description: "Virtualbox Package"
-#  critical: false
-#  hidden: false
-#  selected: false
-#  expanded: false
-#  packages:
-#    - virtualbox
-#    - virtualbox-ext-vnc
-#    - virtualbox-guest-dkms
-#    - virtualbox-guest-iso
-#    - virtualbox-guest-utils
-#    - virtualbox-host-dkms
 - name: "Wine"
   description: "Adds Windows App Support to Linux"
   critical: false
