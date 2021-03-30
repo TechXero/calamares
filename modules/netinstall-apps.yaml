@@ -295,7 +295,6 @@
   packages:
     - caffeine-ng
     - evince
-    - lolcat
     - putty
     - screenfetch
     - sigil
