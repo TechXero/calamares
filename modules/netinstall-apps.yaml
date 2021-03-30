@@ -332,19 +332,19 @@
     - qemu-arch-extra
     - vde2
     - virt-manager
-- name: "Virtualbox"
-  description: "Virtualbox Package"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - virtualbox
-    - virtualbox-ext-vnc
-    - virtualbox-guest-dkms
-    - virtualbox-guest-iso
-    - virtualbox-guest-utils
-    - virtualbox-host-dkms
+#- name: "Virtualbox"
+#  description: "Virtualbox Package"
+#  critical: false
+#  hidden: false
+#  selected: false
+#  expanded: false
+#  packages:
+#    - virtualbox
+#    - virtualbox-ext-vnc
+#    - virtualbox-guest-dkms
+#    - virtualbox-guest-iso
+#    - virtualbox-guest-utils
+#    - virtualbox-host-dkms
 - name: "Wine"
   description: "Adds Windows App Support to Linux"
   critical: false
