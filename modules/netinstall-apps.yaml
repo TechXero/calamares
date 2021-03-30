@@ -316,6 +316,22 @@
     - simplescreenrecorder
     - smplayer
     - youtube-dl
+- name: "Virtual KVM"
+  description: "KVM Virtual Machine"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bridge-utils
+    - dnsmasq
+    - ebtables
+    - openbsd-netcat
+    - ovmf
+    - qemu
+    - qemu-arch-extra
+    - vde2
+    - virt-manager
 - name: "Virtualbox"
   description: "Virtualbox Package"
   critical: false
