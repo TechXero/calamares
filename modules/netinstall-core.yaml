@@ -1,23 +1,21 @@
-- name: "Latest Arch Stock Kernel"
-  description: "Select Kernel + Headers"
+- name: "Latest Stock Kernel"
+  description: "Stock Arch Kernel"
   critical: false
   hidden: false
   selected: false
   packages:
     - linux
     - linux-headers
-- name: "Custom Kernels"
-  description: "Select Kernel + Headers"
+- name: "Latest Zen Kernel"
+  description: "Custom Kernel"
   critical: false
   hidden: false
   selected: false
   packages:
     - linux-zen
-    - linux-zen-headers
-    - linux-amd-znver2
-    - linux-amd-znver2-headers    
+    - linux-zen-headers   
 - name: "Processor U-Code"
-  description: "Installs CPU Microcode"
+  description: "Select CPU Microcode"
   critical: false
   hidden: false
   selected: false
@@ -58,7 +56,7 @@
     - lib32-vulkan-radeon
     - vulkan-icd-loader
     - lib32-vulkan-icd-loader
-- name: "nViddia Related"
+- name: "nVidia Related"
   description: "nVidia related applications"
   critical: false
   hidden: false
