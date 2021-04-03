@@ -1,3 +1,14 @@
+- name: "ArcoLinux Tools"
+  description: "Tools by ArcoLinux Team"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - arcolinux-meta-samba
+    - arcolinux-reflector-simple-git
+    - arcolinux-teamviewer
+    - arcolinux-tweak-tool-git
 - name: "Audio"
   description: "Audio Players & Editors"
   critical: false
@@ -79,7 +90,6 @@
     - meld
     - guvcview
     - sublime-text-dev
-    - arcolinux-teamviewer
 - name: "Disk & USB"
   description: "USB & HDD Apps"
   critical: false
