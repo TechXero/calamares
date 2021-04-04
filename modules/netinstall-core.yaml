@@ -66,5 +66,6 @@
     - cuda
     - disper
     - nvidia-xrun
+    - nvtop
     - optimus-manager
     - optimus-manager-qt
