@@ -44,9 +44,7 @@
   selected: false
   expanded: false
   packages:
-    - android-tools
     - cpu-x
-    - font-manager-git
     - galculator
     - grub-customizer
     - liferea
@@ -94,6 +92,7 @@
     - meld
     - guvcview
     - sublime-text-dev
+    - visual-studio-code-bin
 - name: "Disk & USB"
   description: "USB & HDD Apps"
   critical: false
