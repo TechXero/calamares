@@ -74,6 +74,7 @@
     - nextcloud-client
     - opera
     - qutebrowser
+    - tor-browser
     - thunderbird
     - vivaldi
     - vivaldi-ffmpeg-codecs
@@ -215,15 +216,6 @@
     - enpass-bin
     - keepassxc
     - lastpass  
-- name: "Privacy"
-  description: "Privacy-related Apps"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - tor-browser
-    - privoxy
 - name: "Social-Media"
   description: "Chat Apps"
   critical: false
@@ -257,34 +249,15 @@
     - tmux
     - unimatrix-git
 - name: "Theming"
-  description: "Themes, icons and cursors"
+  description: "Theming related Apps"
   critical: false
   hidden: false
   selected: false
   expanded: false
   packages:
-    - arcolinux-arc-themes-nico-git
     - arcolinux-variety-git
-    - capitaine-cursors
-    - faba-icon-theme-git
     - kvantum-qt5
     - latte-dock
-    - materia-gtk-theme
-    - materia-kde
-    - moka-icon-theme-git
-    - numix-circle-arc-icons-git
-    - numix-circle-icon-theme-git
-    - numix-gtk-theme-git
-    - openbox-themes-pambudi-git
-    - oxy-neon
-    - paper-icon-theme
-    - surfn-mint-y-icons-git
-    - xcursor-arch-cursor-complete
-    - xcursor-comix
-    - xcursor-flatbed
-    - xcursor-neutral
-    - xcursor-premium
-    - xcursor-simpleandsoft
     - xscreensaver
 - name: "Torrent Clients"
   description: "Torrent Downloading"
@@ -332,10 +305,6 @@
     - obs-studio
     - openshot
     - mkvtoolnix-gui
-    - mpc
-    - mpd
-    - mpv
-    - peek
     - plex-media-player
     - plex-media-server
     - simplescreenrecorder
