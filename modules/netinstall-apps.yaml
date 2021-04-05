@@ -108,23 +108,6 @@
     - imagewriter
     - ventoy-bin
     - woeusb    
-- name: "File Managers"
-  description: "File Managers"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - nautilus
-    - nemo
-    - nemo-fileroller
-    - pcmanfm
-    - ranger
-    - thunar
-    - thunar-volman
-    - thunar-archive-plugin
-    - thunar-media-tags-plugin
-    - thunar-shares-plugin
 - name: "Fonts"
   description: "Fonts for Widgets"
   critical: false
@@ -261,6 +244,18 @@
     - kvantum-qt5
     - latte-dock
     - xscreensaver
+- name: "Thunar Complete"
+  description: "Thunar File Manager"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - thunar
+    - thunar-volman
+    - thunar-archive-plugin
+    - thunar-media-tags-plugin
+    - thunar-shares-plugin
 - name: "Torrent Clients"
   description: "Torrent Downloading"
   critical: false
