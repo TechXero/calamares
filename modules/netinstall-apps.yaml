@@ -5,10 +5,13 @@
   selected: false
   expanded: false
   packages:
+    - arcolinux-conky-collection-plasma-git
     - arcolinux-meta-samba
+    - arcolinux-paleofetch-git
     - arcolinux-reflector-simple-git
     - arcolinux-teamviewer
     - arcolinux-tweak-tool-git
+    - arcolinux-variety-git
 - name: "Audio"
   description: "Audio Players & Editors"
   critical: false
@@ -255,7 +258,6 @@
   selected: false
   expanded: false
   packages:
-    - arcolinux-variety-git
     - kvantum-qt5
     - latte-dock
     - xscreensaver
