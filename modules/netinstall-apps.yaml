@@ -6,6 +6,7 @@
   expanded: false
   packages:
     - arcolinux-conky-collection-plasma-git
+    - arcolinux-meta-fun
     - arcolinux-meta-samba
     - arcolinux-meta-utilities
     - arcolinux-paleofetch-git
@@ -36,7 +37,6 @@
     - rhythmbox
     - soundconverter
     - spotify
-    - spotifywm-git
     - tauon-music-box
 - name: "Accessories"
   description: "Various Useful Tools"
@@ -119,14 +119,6 @@
     - ttf-fira-code
     - ttf-inconsolata
     - ttf-liberation
-- name: "Fun"
-  description: "Fun script from ArcoLinux"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - arcolinux-meta-fun    
 - name: "Git"
   description: "Git Applications"
   critical: false
