@@ -275,6 +275,7 @@
   packages:
     - caffeine-ng
     - evince
+    - nvtop
     - putty
     - screenfetch
     - sigil
