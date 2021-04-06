@@ -7,6 +7,7 @@
   packages:
     - arcolinux-conky-collection-plasma-git
     - arcolinux-meta-samba
+    - arcolinux-meta-utilities
     - arcolinux-paleofetch-git
     - arcolinux-reflector-simple-git
     - arcolinux-teamviewer
@@ -44,7 +45,6 @@
   selected: false
   expanded: false
   packages:
-    - cpu-x
     - galculator
     - grub-customizer
     - liferea
@@ -234,7 +234,7 @@
     - tmux
     - unimatrix-git
 - name: "Theming"
-  description: "Theming related Apps"
+  description: "Theming related Tools"
   critical: false
   hidden: false
   selected: false
@@ -281,6 +281,7 @@
     - timeshift
     - ufetch-git
     - ufetch-arco-git
+    - vtop
     - wireshark-qt
     - wttr    
 - name: "Video"
