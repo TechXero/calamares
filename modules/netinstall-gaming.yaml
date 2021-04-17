@@ -1,29 +1,26 @@
-- name: "Game Tools"
-  description: "Gaming Software"
+- name: "Games"
+  description: "Gaming software"
   critical: false
   hidden: false
   selected: false
-  expanded: false
+  expanded: true
   packages:
     - arcolinux-meta-steam
-    - dolphin-emu
-    - dosbox
+    - armagetronad
+    - astromenace
+    - chromium-bsu
+    - extremetuxracer
+    - freeciv
+    - gnome-chess
+    - gnuchess
+    - hedgewars
+    - kbreakout
+    - knights
     - lutris
-    - mame
-    - openmw
-    - openra
-    - pcsx2
+    - minecraft-launcher
+    - neverball
     - playonlinux
-    - ppsspp
-    - retroarch
-- name: "Games"
-  description: "Will drastically increase install time !"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
+    - sauerbraten
+    - sauerbraten-data
     - xonotic
     - xonotic-data
-    - 0ad
-    - wesnoth
