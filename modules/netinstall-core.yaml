@@ -1,0 +1,159 @@
+- name: "Latest Stock Kernel"
+  description: "Stock Arch Kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux
+    - linux-headers
+- name: "Latest Zen Kernel"
+  description: "Custom Kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
+    - linux-zen-headers   
+- name: "Processor U-Code"
+  description: "Select CPU Microcode"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - amd-ucode
+    - intel-ucode
+- name: "nVidia Drivers"
+  description: "If Custom Kernel then DKMS"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
+    - nvidia-dkms
+    - vulkan-icd-loader
+    - lib32-vulkan-icd-loader
+- name: "Intel Graphics Drivers"
+  description: "Installs Intel Graphics drivers"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lib32-mesa 
+    - vulkan-intel
+    - vulkan-icd-loader
+    - lib32-vulkan-icd-loader
+- name: "AMD Graphics Drivers"
+  description: "Installs AMD Graphics drivers"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lib32-mesa
+    - vulkan-intel
+    - vulkan-radeon
+    - lib32-vulkan-radeon
+    - vulkan-icd-loader
+    - lib32-vulkan-icd-loader
+- name: "KDE Plasma"
+  description: "KDE Plasma Desktop Environment"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - kwin
+    - milou
+    - breeze
+    - oxygen
+    - drkonqi
+    - kwrited
+    - kgamma5
+    - kscreen
+    - khotkeys
+    - sddm-kcm
+    - kmenuedit
+    - bluedevil
+    - ksysguard
+    - breeze-gtk
+    - powerdevil
+    - libkscreen
+    - kwallet-pam
+    - kinfocenter
+    - ksshaskpass
+    - kdecoration
+    - libksysguard
+    - kscreenlocker
+    - kde-cli-tools
+    - xdg-user-dirs
+    - systemsettings
+    - kwayland-server
+    - kde-gtk-config
+    - packagekit-qt5
+    - qt5-websockets
+    - kdeplasma-addons
+    - kactivitymanagerd
+    - kwayland-integration
+    - xdg-desktop-portal-kde
+    - plasma-nm
+    - plasma-pa
+    - plasma-sdk
+    - plasma-disks
+    - plasma-vault
+    - plasma-desktop
+    - plasma-workspace
+    - plasma-integration
+    - plasma-thunderbolt
+    - plasma-browser-integration
+    - plasma-workspace-wallpapers
+    - kcron
+    - dolphin
+    - ksystemlog
+    - ark
+    - kate
+    - kgpg
+    - kfind
+    - kwrite
+    - kdialog
+    - konsole
+    - sweeper
+    - filelight
+    - itinerary
+    - kio-extras
+    - kio-gdrive
+    - ksystemlog
+    - kcharselect
+    - khelpcenter
+    - markdownpart
+    - kwalletmanager
+    - kget
+    - kdeconnect
+    - zeroconf-ioslave
+    - kdenetwork-filesharing
+    - signon-kwallet-extension
+    - okular
+    - svgpart
+    - gwenview
+    - spectacle
+    - kolourpaint
+    - kcolorchooser
+    - kdegraphics-mobipocket
+    - kdegraphics-thumbnailers
+    - elisa
+    - kwave
+    - audiocd-kio
+    - ffmpegthumbs
+    - lokalize
+    - dolphin-plugins
+    - kdesdk-thumbnailers
+    - kmouth
+    - kontrast
+    - kmousetool
+    - krdc
+    - krfb
+    - kruler
+    - kopete
+    - xsettingsd
+    - systemdgenie
+    - gnome-keyring
+    - keditbookmarks
